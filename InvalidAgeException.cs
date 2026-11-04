@@ -3,8 +3,9 @@ namespace VotingApp
 {
 	public class InvalidAgeException:Exception
 	{
-		public InvalidAgeException():base()
+		public InvalidAgeException(string message):base(message)
 		{
+			
 		}
 	}
 }
